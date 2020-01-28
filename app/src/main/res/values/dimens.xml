@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
+    <dimen name="design_fab_image_size" tools:override="true">24dp</dimen>
+
+    <dimen name="xxxsmall">1dp</dimen>
+    <dimen name="xxsmall">2dp</dimen>
+    <dimen name="xsmall">4dp</dimen>
+    <dimen name="small">8dp</dimen>
+    <dimen name="medium">16dp</dimen>
+    <dimen name="large">24dp</dimen>
+    <dimen name="xlarge">32dp</dimen>
+    <dimen name="xxlarge">40dp</dimen>
+    <dimen name="xxxlarge">48dp</dimen>
+    <dimen name="xxxxlarge">72dp</dimen>
+
+    <dimen name="array_text_view_height">120dp</dimen>
+    <dimen name="peekHeight">64dp</dimen>
+    <dimen name="bottom_sheet_title">48sp</dimen>
+
+
+</resources>

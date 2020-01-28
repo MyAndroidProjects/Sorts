@@ -1,0 +1,24 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sortNameCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/xsmall"
+    app:cardCornerRadius="@dimen/medium"
+    app:cardBackgroundColor="@color/bottomSheetItem"
+    app:cardElevation="@dimen/xsmall">
+
+    <TextView
+        android:id="@+id/sortName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="@dimen/large"
+        android:paddingTop="@dimen/large"
+        android:paddingEnd="@dimen/large"
+        android:paddingBottom="@dimen/large"
+        android:maxLines="1"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        tools:text="Сортировка вставками" />
+</androidx.cardview.widget.CardView>

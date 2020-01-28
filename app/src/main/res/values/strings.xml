@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Сортировки</string>
+    <string name="enter_number_label">Введите целое число:</string>
+    <string name="add_number_button_text">Добавить число в массив</string>
+    <string name="clear_array_button_text">Очистить массив</string>
+    <string name="sort_array_label">Отсортированный массив:</string>
+    <string name="unsorted_array_label">Неотсортированный массив:</string>
+    <string name="bottom_sheet">bottom sheet</string>
+    <string name="select_sort_label">Выберите сортировку</string>
+
+
+</resources>
