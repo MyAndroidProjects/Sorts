@@ -100,7 +100,9 @@ class MainActivity : AppCompatActivity(), SelectSortAdapter.SelectSortListener,
 //        transaction.addToBackStack(null)
         transaction.commit()
     }
-
+    /**
+     *  если брать BottomSheetBehavior из view, то затемнения не происходит
+     */
     private fun createBottomSheet() {
         bottomSheetBehavior = BottomSheetBehavior.from<View>(bottomSheetText as View)
         bottomSheetBehavior.state = STATE_COLLAPSED

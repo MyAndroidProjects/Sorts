@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="@dimen/large"
-        android:inputType="number"
+        android:inputType="numberSigned"
         android:minWidth="@dimen/xxxlarge"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
