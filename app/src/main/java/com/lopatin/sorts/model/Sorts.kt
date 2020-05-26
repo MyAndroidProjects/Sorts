@@ -29,6 +29,7 @@ fun bubbleSortDecrease(unsortedArray: Array<Int>): Array<Int> {
 }
 
 /**
+ * Пузырьковая
  * сравниваем каждый элемент с каждым, если текущий элемент больше, то меняем местами
  */
 
@@ -222,7 +223,11 @@ private fun quickSortIncrease(array: Array<Int>, startLeftIndex: Int, startRight
         quickSortIncrease(array, leftIndex, startRightIndex)
 }
 
-
+/**
+ * Сортировка двоичным деревом
+ * Создаем дерево, обходим in-order (left- root - right)
+ * подробности в class BinaryTree
+ */
 fun Array<Int>.treeSort(): Array<Int> {
     return if (this.isNullOrEmpty()) {
         Array<Int>(0) { 0 }
